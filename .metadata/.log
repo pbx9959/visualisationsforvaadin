@@ -1,0 +1,133 @@
+!SESSION 2017-03-17 16:35:07.365 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/phil/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/phil/.eclipse_keyring
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:42:53.079
+!MESSAGE Fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:42:53.079
+!MESSAGE Requesting user info (notification settings URL)
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:42:59.942
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:42:59.956
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:42:59.960
+!MESSAGE Parse notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:42:59.964
+!MESSAGE Save JSON notifications content to cache file /Users/phil/Documents/workspace/visualizationsforvaadin/.metadata/.plugins/com.vaadin.integration.eclipse/notifications-cache.json
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:01.094
+!MESSAGE Icon https://vaadin.com/documents/10187/3851288/Vaadin-8-0.png is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:01.355
+!MESSAGE Icon https://vaadin.com/documents/10187/0/Vaadin+Prime+Notification+Icon/e836bab6-c133-4bec-8c57-5a27abe32037?t=1487683980885 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:01.865
+!MESSAGE Icon https://vaadin.com/image/image_gallery?uuid=18682a9f-1321-496c-9b4c-6e6af1efb22c&groupId=10187&t=1381328788305Scheme is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:03.115
+!MESSAGE Image https://vaadin.com/documents/10187/3851288/vaadin-new-version.png/ac0a4d68-705b-46ec-866f-8cc7a657a99c?t=1415802870933 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:03.819
+!MESSAGE Image https://vaadin.com/documents/10187/0/Vaadin+Prime+Notification+Banner/ba3707a2-036e-4739-ae2b-29fda6ba2318?t=1487683923197 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:04.398
+!MESSAGE Image https://vaadin.com/image/image_gallery?uuid=1b16f25c-d29d-402b-8b66-f8d69c6bf87d&groupId=10187&t=1379421069097 is downloaded
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:04.450
+!MESSAGE Schedule fetching new notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:43:16.220
+!MESSAGE All vaadin 7+ projects : []
+
+!ENTRY org.eclipse.ui.workbench 4 2 2017-03-22 02:43:16.767
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1089)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:840)
+	at org.eclipse.swt.widgets.Display.create(Display.java:823)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:722)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:713)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1419)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:207)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:22)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 0 2017-03-22 02:43:16.774
+!MESSAGE Unable to execute early startup code for the org.eclipse.ui.IStartup extension contributed by the 'org.eclipse.oomph.setup.ui' plug-in.
+!STACK 0
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1089)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:840)
+	at org.eclipse.swt.widgets.Display.create(Display.java:823)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:129)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:722)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:713)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1419)
+	at org.eclipse.oomph.setup.ui.SetupUIPlugin.performStartup(SetupUIPlugin.java:207)
+	at org.eclipse.oomph.setup.ui.EarlyStartup.earlyStartup(EarlyStartup.java:22)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:77)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:53)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2835)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2017-03-22 02:43:58.753 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_92
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/phil/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/phil/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-03-22 02:44:19.351
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:29.836
+!MESSAGE Schedule fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:29.870
+!MESSAGE Schedule version update jobs
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:30.625
+!MESSAGE Requesting user info (notification settings URL)
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:30.626
+!MESSAGE Fetching all notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:37.622
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:37.641
+!MESSAGE Parse notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:37.651
+!MESSAGE Save JSON notifications content to cache file /Users/phil/Documents/workspace/visualizationsforvaadin/.metadata/.plugins/com.vaadin.integration.eclipse/notifications-cache.json
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:37.658
+!MESSAGE HTTP Response code :200
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:37.760
+!MESSAGE Schedule fetching new notifications
+
+!ENTRY com.vaadin.designer2 1 0 2017-03-22 02:44:59.928
+!MESSAGE All vaadin 7+ projects : []
